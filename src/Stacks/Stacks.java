@@ -12,7 +12,7 @@ public class Stacks {
                 pop() to remove from the top
          */
 
-        Stack<String> stack=new Stack<String>();
+        Stack<String> stack = new Stack<String>();
 
         stack.push("Genshin Impact");
         stack.push("Fortnite");
@@ -28,20 +28,14 @@ public class Stacks {
         System.out.println(stack);
         System.out.println(myFavGame);
 
-        /*
-            *************************output****************************
-            Paladins
-            6
-            [Genshin Impact, Forntie, Apex, Smite, Destiny 2, Paladins]
-            Final Fantasy XV
-
-            Process finished with exit code 0
-            ***********************************************************
-         */
-
-
-
-
+        // *************************output****************************
+        // Paladins
+        // 6
+        // [Genshin Impact, Forntie, Apex, Smite, Destiny 2, Paladins]
+        // Final Fantasy XV
+        //
+        // Process finished with exit code 0
+        // ***********************************************************
 
     }
 }
